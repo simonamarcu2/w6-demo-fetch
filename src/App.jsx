@@ -8,8 +8,8 @@ const App = () => {
     const [data, setData] = useState({})
 
   // equivilant to componentDidMount
-        useEffect(() => {
-    handleFetch()
+    useEffect(() => {
+        handleFetch()
     }, [])
 
   //   equivilant to componentDidUpdate
